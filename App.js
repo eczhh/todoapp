@@ -14,10 +14,9 @@ function HomeScreen() {
         <Text style={styles.title}>My Todo List</Text>
         <View style={styles.titleLine} />
         <View style={styles.todoList}>
-          <Text style={styles.todoItem}>buy milk</Text>
-          <Text style={styles.todoItem}>buy bread</Text>
-          <Text style={styles.todoItem}>buy eggs</Text>
-          {/* Add more todos as needed */}
+          <Text style={styles.todoItem}>Buy Milk</Text>
+          <Text style={styles.todoItem}>Buy Bread</Text>
+          <Text style={styles.todoItem}>Buy Eggs</Text>
         </View>
       </View>
       <TouchableOpacity
@@ -91,7 +90,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFE6E6',
+    backgroundColor: '#40E0D0',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: 20,
@@ -117,7 +116,7 @@ const styles = StyleSheet.create({
   },
   addButton: {
     flexDirection: 'row',
-    backgroundColor: '#AD88C6',
+    backgroundColor: '#6495ED',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
@@ -164,7 +163,7 @@ const styles = StyleSheet.create({
   },
   cancelButton: {
     flexDirection: 'row',
-    backgroundColor: '#AD88C6',
+    backgroundColor: '#6495ED',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
